@@ -1,303 +1,177 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO.</title>
-    <link rel="stylesheet" href="/Isabella225/style.css">
+    <title>Well-Round | Chen Design Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
 </head>
 <body>
+
+<!-- 首页全屏循环视频 -->
+<section id="home" class="section">
+    <video autoplay muted loop playsinline id="bg-video">
+        <source src="video-bg.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+
     <header>
-        <a href="#" class="logo">PORTFOLIO.</a>
-        <nav>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">WORKS</a></li>
-                <li><a href="#">CONTACT</a></li>
-            </ul>
+        <nav class="circular-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#3d">3D Design</a>
+            <a href="#graphic">Graphic Design</a>
+            <a href="#photo">Photography</a>
         </nav>
     </header>
-    
-    <main>
-        <section class="hero">
-            <div class="hero-container">
-                <div class="text-content">
-                    <h1>PORTFOLIO.</h1>
-                    <h2>ZHANG Xitong Personal design portfolio</h2>
-                    <p>The Various Works I Designed And Produced <br>During My Study.</p>
-                    <a href="#" class="cta-button">Start Exploring</a>
-                </div>
-                <div class="image-content"></div>
+
+    <div class="hero-text">
+        <h1>PORTFOLIO</h1>
+        <p>Well-Rounded Thinking • Well-Rounded Development</p>
+    </div>
+
+    <!-- Personal Info (Bottom Left) -->
+        <div class="hero-info">
+            <h1>ZHANG Xitong</h1>
+            <p>Isabella Zhang</p>
+            <div class="contact-details">
+                <a href="mailto:your-email@example.com" >
+                    <i class="fa fa-envelope mr-2"></i> ✉️atbeunhee@gmail.com
+                </a>
+                <a href="https://your-portfolio.com" target="_blank" >
+                    <i class="fa fa-globe mr-2"></i> 📞+852 66080858
+                </a>
             </div>
-        </section>
-        
-    </main>
-
-
-
-        <main>
-            <!-- 个人简介部分 -->
-            <section class="introduce" id="about">
-                <div class="introduce-content">
-                    <div class="intro-text">
-                        <h1>Personal Profile</h1>
-                        <h2>ZHANG Xitong</h2>
-                        <p class="intro-description">A student who is studying Higher Diploma in Multimedia, VR and Interactive Technology at the HongKong Institute of Information Technology.</p>
-                    </div>
-                    <div class="button-group">
-                        <a href="#contact" class="cta-button">Contact me</a>
-                        <a href="#" class="outline-button">Download Resume</a>
-                    </div>
-                </div>
-            </section>
-            
-            <!-- 技能部分 -->
-            <section class="section skills" id="skills">
-                <div class="section-header">
-                    <h2>Professional skills</h2>
-                    <p>I specialize in the following areas</p>
-                </div>
-                <div class="skills-container">
-                    <div class="skill-column">
-                        <div class="skill-item">
-                            <h3>Web Development</h3>
-                            <p>HTML, CSS, Python and other coding technologies</p>
-                        </div>
-                        <div class="skill-item">
-                            <h3>UI/UX Design</h3>
-                            <p>User interface design, mastering Figma and other design websites</p>
-                        </div>
-                    </div>
-                    <div class="skill-column">
-                        <div class="skill-item">
-                            <h3>3D and VR Design</h3>
-                            <p>Can Use 3DsMax, Unity and other software</p>
-                        </div>
-                        <div class="skill-item">
-                            <h3>Graphic Design</h3>
-                            <p>Adobe series such as Photoshop, After Effect, Illustrator, etc.</p>
-                        </div>
-                    </div>
-                    <div class="skill-column">
-                        <div class="skill-item">
-                            <h3>Photography</h3>
-                            <p>Learned and practiced various photography and filming techniques</p>
-                        </div>
-                        <div class="skill-item">
-                            <h3>Other Skills</h3>
-                            <p>Project management, teamwork, technical writing</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-    
-    <!-- 3D设计区域 -->
-    <section id="design-3d" class="section design-3d">
-        <div class="section-title">
-            <h2>3D Design Works</h2>
-            <p>These 3D works demonstrate my understanding and application of space, materials, light and shadow. From product design to scene construction, each work has been carefully crafted.</p>
         </div>
-        
-        <div class="container">
-            <div class="design-3d-grid">
-                <!-- 3D设计项目1-9 -->
-                <div class="design-item item-1">
-                    <img src="image/3D1.jpg" alt="3D设计作品1">
-                </div>
-                
-                <div class="design-desc right">
-                    <h3>Interior Design</h3>
-                    <p>In the process of interior design, in addition to aesthetics, the design of lighting and material of objects is also fully considered.</p>
-                    <p>Tools used: 3DsMax</p>
-                </div>
-                
-                <div class="design-item item-2">
-                    <img src="image/3D2.jpg" alt="3D设计作品2">
-                </div>
-                
-                <div class="design-item item-3">
-                    <img src="image/3D3.jpg" alt="3D设计作品3">
-                </div>
-                
-                <div class="design-item item-4">
-                    <img src="image/3D4.jpg" alt="3D设计作品4">
-                </div>
-                
-                <div class="design-desc left">
-                    <h3>Cartoon scene design, VR game design</h3>
-                    <p>Focus on scene details and the interactivity of items, and make the game look playable through diverse scene settings and detail processing.</p>
-                    <p>Tools used: 3DsMax, Unity</p>
-                </div>
-                
-                <div class="design-item item-5">
-                    <img src="image/3D5.png" alt="3D设计作品5">
-                </div>
-                
-                <div class="design-item item-6">
-                    <img src="image/3D6.jpg" alt="3D设计作品6">
-                </div>
-                
-                <div class="design-item item-7">
-                    <img src="image/3D7.png" alt="3D设计作品7">
-                </div>
-                
-                <div class="design-item item-8">
-                    <img src="image/3D8.png" alt="3D设计作品8">
-                </div>
-                
-                <div class="design-item item-9">
-                    <img src="image/3D9.png" alt="3D设计作品9">
+
+</section>
+
+<!-- About -->
+<section id="about" class="section">
+    <div class="container">
+        <h2 class="section-title circular-title">About Me</h2>
+        <p class="about-text">
+            这里写你的自我介绍（300–500字），可以谈 Well-Round Thinking 如何贯穿你的设计实践……
+        </p>
+    </div>
+</section>
+
+<!-- 3D Design -->
+<section id="3d" class="section">
+    <div class="container">
+        <h2 class="section-title circular-title">3D Design</h2>
+
+        <!-- Project 1 -->
+        <div class="project-group">
+            <h3>Project Title One</h3>
+            <p>Description text...</p>
+            <div class="grid-4">
+                <a href="images/3d/1-1.jpg" data-lightbox="3d-1"><img src="images/3d/1-1.jpg" alt=""></a>
+                <a href="images/3d/1-2.jpg" data-lightbox="3d-1"><img src="images/3d/1-2.jpg" alt=""></a>
+                <a href="images/3d/1-3.jpg" data-lightbox="3d-1"><img src="images/3d/1-3.jpg" alt=""></a>
+                <a href="images/3d/1-4.jpg" data-lightbox="3d-1"><img src="images/3d/1-4.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-group">
+            <h3>Project Title Two</h3>
+            <p>Description...</p>
+            <div class="grid-3">
+                <a href="images/3d/2-1.jpg" data-lightbox="3d-2"><img src="images/3d/2-1.jpg" alt=""></a>
+                <a href="images/3d/2-2.png" data-lightbox="3d-2"><img src="images/3d/2-2.png" alt=""></a>
+                <a href="images/3d/2-3.jpg" data-lightbox="3d-2"><img src="images/3d/2-3.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-group">
+            <h3>Project Title Three</h3>
+            <p>Description...</p>
+            <div class="grid-4">
+                <a href="images/3d/3-1.png" data-lightbox="3d-2"><img src="images/3d/3-1.png" alt=""></a>
+                <a href="images/3d/3-2.png" data-lightbox="3d-2"><img src="images/3d/3-2.png" alt=""></a>
+                <a href="images/3d/3-3.png" data-lightbox="3d-2"><img src="images/3d/3-3.png" alt=""></a>
+                <a href="images/3d/3-4.png" data-lightbox="3d-2"><img src="images/3d/3-4.png" alt=""></a>
+                <!-- 同上 4张图 -->
+            </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-group">
+            <h3>Project Title Four</h3>
+            <p>Description...</p>
+            <div class="video-grid">
+                <div class="video-wrapper">
+                    <video controls poster="images/3d/video1-poster.png">
+                        <source src="images/3d/video1.mp4" type="video/mp4">
+                    </video>
+                    <p class="caption">Project description...</p>
                 </div>
             </div>
         </div>
-    </section>
-    
-    <body>
-        <!-- 平面设计区域 -->
-        <section id="graphic-design" class="section graphic-design">
-            <div class="section-title">
-                <h2>Graphic Design Works</h2>
-                <p>From logo design to poster design, my graphic work combines color, typography and visual storytelling to create as rich a visual experience as possible.</p>
-            </div>
-            
-            <div class="container">
-                <div class="slider-container">
-                    <div class="slider">
-                        <!-- 2 -->
-                        <div class="slide">
-                            <div class="slide-content">
-                                <div class="slide-image">
-                                    <img src="image/graphic1.png" alt="平面设计作品2">
-                                </div>
-                                <div class="slide-text">
-                                    <h3>Protect the Marine Environment Poster</h3>
-                                    <p>This poster was designed to promote the protection of marine life and the environment. It uses a patchwork style and uses bold visual elements to directly convey the concept of protecting the ocean.</p>
-                                    <p>Tools Used: Adobe Illustrator</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- 3 -->
-                        <div class="slide">
-                            <div class="slide-content">
-                                <div class="slide-image">
-                                    <img src="image/graphic2.png" alt="平面设计作品3">
-                                </div>
-                                <div class="slide-text">
-                                    <h3>Biodiversity Protection Poster</h3>
-                                    <p>This poster aims to promote the protection of biodiversity. It adopts a collage style and uses bold visual elements to directly convey the concept of protecting biodiversity.</p>
-                                    <p>Tools Used: Adobe Illustrator</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- 4 -->
-                        <div class="slide">
-                            <div class="slide-content">
-                                <div class="slide-image">
-                                    <img src="image/graphic3.png" alt="平面设计作品4">
-                                </div>
-                                <div class="slide-text">
-                                    <h3>Protect Desert Animals Poster</h3>
-                                    <p>This poster aims to promote the protection of desert animals. It adopts a collage style and uses bold visual elements to directly convey the concept of protecting desert animals.</p>
-                                    <p>Tools Used: Adobe Illustrator</p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- 视频 -->
-                        <div class="slide">
-                            <div class="slide-content">
-                                <div class="slide-video">
-                                    <video controls poster="image/poster.png">
-                                        <source src="image/logo.mp4" type="video/mp4">
-                                        您的浏览器不支持视频播放。
-                                    </video>
-                                </div>
-                                <div class="slide-text">
-                                    <h3>Logo Design</h3>
-                                    <p>After designing the logo with Adobe Illustrator, we then used After Effects to animate it and add details for a better visual effect.</p>
-                                    <p>Tool Used: Adobe Illustrator, After Effects</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- 5 -->
-                        <div class="slide">
-                            <div class="slide-content">
-                                <div class="slide-image">
-                                    <img src="image/graphic4.png" alt="平面设计作品5">
-                                </div>
-                                <div class="slide-text">
-                                    <h3>Magazine Cover Design</h3>
-                                    <p>The layout design of the fashion magazine combines modern typography techniques, creating a unique reading experience through detailed processing of pictures and fonts.</p>
-                                    <p>Tool Used: Adobe Illustrator, Photoshop</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- 6 -->
-                        <div class="slide">
-                            <div class="slide-content">
-                                <div class="slide-image">
-                                    <img src="image/graphic5.jpg" alt="平面设计作品6">
-                                </div>
-                                <div class="slide-text">
-                                    <h3>Magazine Cover Design</h3>
-                                    <p>The layout design of the fashion magazine combines modern typography techniques, creating a unique reading experience through detailed processing of pictures and fonts.</p>
-                                    <p>Tool Used: Adobe Photoshop</p>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <!-- 7 -->
-                        <div class="slide">
-                            <div class="slide-content">
-                                <div class="slide-image">
-                                    <img src="image/graphic6.png" alt="平面设计作品7">
-                                </div>
-                                <div class="slide-text">
-                                    <h3>Logo Design</h3>
-                                    <p>Combining the current mainstream style, it pays more attention to the choice of color and adds embellishments that match the logo to make the overall look more ornamental.</p>
-                                    <p>Tool Used: Adobe Illustrator, Photoshop</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- 导航箭头 -->
-                    <div class="slider-arrow prev">←</div>
-                    <div class="slider-arrow next">→</div>
-                    
-                    <!-- 导航点 -->
-                    <div class="slider-nav">
-                        <div class="slider-dot active"></div>
-                        <div class="slider-dot"></div>
-                        <div class="slider-dot"></div>
-                        <div class="slider-dot"></div>
-                        <div class="slider-dot"></div>
-                        <div class="slider-dot"></div>
-                        <div class="slider-dot"></div>
-                    </div>
+    </div>
+</section>
+
+<!-- Graphic Design -->
+<section id="graphic" class="section">
+    <div class="container">
+        <h2 class="section-title circular-title">Graphic Design</h2>
+
+        <!-- Section 1：2个视频 -->
+        <div class="project-group">
+            <h3>Motion & Branding</h3>
+            <div class="video-grid">
+                <div class="video-wrapper">
+                    <video controls poster="images/graphic/video1-poster.png">
+                        <source src="images/graphic/video1.mp4" type="video/mp4">
+                    </video>
+                    <p class="caption">Project description...</p>
+                </div>
+                <div class="video-wrapper">
+                    <video controls poster="images/graphic/video2-poster.png">
+                        <source src="images/graphic/video2.mp4" type="video/mp4">
+                    </video>
+                    <p class="caption">Project description...</p>
                 </div>
             </div>
-        </section>
-    
-    <!-- 摄影作品区域 -->
-    <section id="photography" class="section photography">
-        <div class="section-title">
-            <h2>Photographic Works</h2>
-            <p>Capturing the beauty and emotions of the moment through the lens, my photography works combine a variety of photographic techniques to show the beauty of landscapes and objects.</p>
         </div>
+
+        <!-- Section 2：3张图 -->
+        <div class="project-group">
+            <h3>Poster Series</h3>
+            <p>Description...</p>
+            <div class="grid-3">
+                <a href="images/graphic/g1.png" data-lightbox="graphic"><img src="images/graphic/g1.png" alt=""></a>
+                <a href="images/graphic/g2.png" data-lightbox="graphic"><img src="images/graphic/g2.png" alt=""></a>
+                <a href="images/graphic/g3.png" data-lightbox="graphic"><img src="images/graphic/g3.png" alt=""></a>
+            </div>
+        </div>
+
+        <!-- Section 3：2张图 -->
+        <div class="project-group">
+            <h3>Visual Identity</h3>
+            <p>Description...</p>
+            <div class="grid-2">
+                <a href="images/graphic/g4.png" data-lightbox="graphic"><img src="images/graphic/g4.png" alt=""></a>
+                <a href="images/graphic/g5.jpg" data-lightbox="graphic"><img src="images/graphic/g5.jpg" alt=""></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 摄影作品区域 -->
+    <section id="graphic" class="section">
+    <div class="container">
+        <h2 class="section-title circular-title">Graphic Design</h2>
         
         <div class="container">
             <div class="photography-grid">
                 <!-- 摄影作品1-8 -->
                 <div class="photo-item photo-1">
-                    <img src="image/p1.JPG" alt="摄影作品1">
+                    <img src="images/photo/p1.JPG" alt="摄影作品1">
                 </div>
                 
                 <div class="photo-desc">
@@ -306,23 +180,23 @@
                 </div>
                 
                 <div class="photo-item photo-2">
-                    <img src="image/p2.JPG" alt="摄影作品2">
+                    <img src="images/photo/p2.JPG" alt="摄影作品2">
                 </div>
                 
                 <div class="photo-item photo-3">
-                    <img src="image/p5.jpg" alt="摄影作品3">
+                    <img src="images/photo/p5.jpg" alt="摄影作品3">
                 </div>
                 
                 <div class="photo-item photo-4">
-                    <img src="image/p3.JPG" alt="摄影作品4">
+                    <img src="images/photo/p3.JPG" alt="摄影作品4">
                 </div>
                 
                 <div class="photo-item photo-5">
-                    <img src="image/p4.JPG" alt="摄影作品5">
+                    <img src="images/photo/p4.JPG" alt="摄影作品5">
                 </div>
                 
                 <div class="photo-item photo-6">
-                    <img src="image/p6.jpg" alt="摄影作品6">
+                    <img src="images/photo/p6.jpg" alt="摄影作品6">
                 </div>
                 
                 <div class="photo-desc">
@@ -331,88 +205,18 @@
                 </div>
                 
                 <div class="photo-item photo-7">
-                    <img src="image/p7.JPG" alt="摄影作品7">
+                    <img src="images/photo/p7.JPG" alt="摄影作品7">
                 </div>
                 
                 <div class="photo-item photo-8">
-                    <img src="image/p8.JPG" alt="摄影作品8">
+                    <img src="images/photo/p8.JPG" alt="摄影作品8">
                 </div>
             </div>
         </div>
     </section>
-    
-    <!-- 页脚 -->
-    <footer id="contact">
-        <h3>THANK YOU</h3>
-        <p>If you are interested in my work or have any cooperation opportunities, please contact me through the following methods.</p>
-        <div class="social-links">
-            <a href="#">LinkedIn</a>
-            <a href="#">Email: 12345678@gmail.com</a>
-            <a href="#">Call: 12345678</a>
-        </div>
-    </footer>
 
-    <script>
-        // 滑动展示功能
-        document.addEventListener('DOMContentLoaded', function() {
-            const slider = document.querySelector('.slider');
-            const slides = document.querySelectorAll('.slide');
-            const dots = document.querySelectorAll('.slider-dot');
-            const prevBtn = document.querySelector('.slider-arrow.prev');
-            const nextBtn = document.querySelector('.slider-arrow.next');
-            
-            let currentIndex = 0;
-            const slideCount = slides.length;
-            
-            // 更新幻灯片位置
-            function updateSlider() {
-                slider.style.transform = `translateX(-${currentIndex * 100}%)`;
-                
-                // 更新导航点状态
-                dots.forEach((dot, index) => {
-                    dot.classList.toggle('active', index === currentIndex);
-                });
-            }
-            
-            // 下一张
-            function nextSlide() {
-                currentIndex = (currentIndex + 1) % slideCount;
-                updateSlider();
-            }
-            
-            // 上一张
-            function prevSlide() {
-                currentIndex = (currentIndex - 1 + slideCount) % slideCount;
-                updateSlider();
-            }
-            
-            // 点击导航点跳转
-            dots.forEach((dot, index) => {
-                dot.addEventListener('click', () => {
-                    currentIndex = index;
-                    updateSlider();
-                });
-            });
-            
-            // 添加按钮事件
-            nextBtn.addEventListener('click', nextSlide);
-            prevBtn.addEventListener('click', prevSlide);
-            
-            // 自动播放
-            let slideInterval = setInterval(nextSlide, 5000);
-            
-            // 鼠标悬停时暂停自动播放
-            const sliderContainer = document.querySelector('.slider-container');
-            sliderContainer.addEventListener('mouseenter', () => {
-                clearInterval(slideInterval);
-            });
-            
-            sliderContainer.addEventListener('mouseleave', () => {
-                slideInterval = setInterval(nextSlide, 5000);
-            });
-        });
-    </script>
-    
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.min.js"></script>
 </body>
-
 </html>
